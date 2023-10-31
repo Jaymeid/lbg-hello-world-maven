@@ -11,7 +11,7 @@ pipeline {
                 steps {
                     // Get some code from a GitHub repository
 
-                    git branch: 'main', url: 'https://github.com/Jaymeid/lbg-hello-world-maven/blob/main/Jenkinsfile'
+                    git branch: 'main', url: 'https://github.com/Jaymeid/lbg-hello-world-maven/'
                 }
             }
             stage('Compile') {
